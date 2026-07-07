@@ -40,9 +40,12 @@ Display font is **DM Sans** (configured in [`src/app/[locale]/layout.tsx`](src/a
 
 1. Push this repo to GitHub (or fork it).
 2. Import the repository in [Vercel](https://vercel.com/new).
-3. **Root Directory:** `.` (repository root)
-4. Copy variables from [`.env.example`](.env.example) into Vercel → Settings → Environment Variables.
-5. Deploy.
+3. **Root Directory:** leave as **`.`** (repository root) — **do not** select `packages/ui` (that folder is only a shared component library, not the website).
+4. **Framework Preset:** **Next.js** (auto-detected when root is correct).
+5. Copy variables from [`.env.example`](.env.example) into Vercel → Settings → Environment Variables.
+6. Deploy.
+
+> **Already deployed:** [templated-bike-website.vercel.app](https://templated-bike-website.vercel.app) — if you created a second project with Root Directory `packages/ui`, delete it or change Root Directory to `.` under Project Settings → General.
 
 Optional: add a custom domain in Vercel and set `NEXT_PUBLIC_SITE_URL` to match.
 
