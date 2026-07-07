@@ -4,7 +4,7 @@ import type { Nap } from '@max/ui';
  * Canonical origin. Override per environment with NEXT_PUBLIC_SITE_URL.
  * Replace all placeholder values below with your shop's real business details.
  */
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://templated-bike-website.vercel.app';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://your-bike-website.vercel.app';
 export const SITE_NAME = 'Your Bike Website';
 
 /** Optional integrations — components/handlers no-op safely when unset. */

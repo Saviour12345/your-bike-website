@@ -45,7 +45,7 @@ Display font is **DM Sans** (configured in [`src/app/[locale]/layout.tsx`](src/a
 5. Copy variables from [`.env.example`](.env.example) into Vercel → Settings → Environment Variables.
 6. Deploy.
 
-> **Already deployed:** [templated-bike-website.vercel.app](https://templated-bike-website.vercel.app) — if you created a second project with Root Directory `packages/ui`, delete it or change Root Directory to `.` under Project Settings → General.
+> **Live demo:** [your-bike-website.vercel.app](https://your-bike-website.vercel.app) — if you created a second project with Root Directory `packages/ui`, delete it or change Root Directory to `.` under Project Settings → General.
 
 Optional: add a custom domain in Vercel and set `NEXT_PUBLIC_SITE_URL` to match.
 
